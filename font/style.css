@@ -141,6 +141,7 @@
   .gbox{
 	position: absolute;
 	left: 602px;
+  top: 13px;
 	
 }
   .g1{
@@ -248,6 +249,7 @@
  .sbox{
 position: absolute;
 	left: 1119px;
+  top: 13px;
 	
 }
 
@@ -304,7 +306,7 @@ h1{
 	position:absolute;
 	top: 440px;
 	
-	font-family: impact;
+	font-family: helvetica;
 	helvetica,arial, palatino, georgia, didot
 	font-weight: normal;
 
