@@ -1,471 +1,104 @@
-.r1{
-	position: absolute;
-	width: 30px;
-	height: 400px;
-	top:20px;
-	background-color: rgb(0,0,0);
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("pic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-.r2{
-	position: absolute;
-	width: 30px;
-	height: 262px;
-	top: 186px;
-	left: 100px;
-	background-color: rgb(0,0,0);
-	transform: rotate(315deg);
-}
-.r4{
-	position: absolute;
-     width: 0;
-      height: 0;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(0,0,0);
-      border-bottom: 100px solid transparent;
-      left: 117px;
-      top: 100px;
-      transition: all .7s;
-}
-.r3{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 37px;
-     top:20px;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(0,0,0);
-      border-bottom: 100px solid transparent;
-      transition: all .7s;
-}
-
-
-.abox{
-	position: absolute;
-	left: 228px;
-	
-}
-.a1{
-
-	position: absolute;
-	top: 151px;
-	width: 30px;
-	height: 301px;
-	top: 112px;
-	
-	background-color: rgb(0,0,0);
-}
-.a2{
-
-	position: absolute;
-	top: 150px;
-	left: 170px;
-	width: 30px;
-	height: 300px;
-	top: 112px;
-	background-color: rgb(0,0,0);
-}
-.a3{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 12px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transition: all .7s;
-}
-.a4{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 224px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transform: rotate(180deg);
-      transition: all .7s;
-}
-.nbox{
-	position: absolute;
-	left: 438px;
-
-	
-}
-.n1{
-	position: absolute;
-	width: 30px;
-	height: 400px;
-	top:12px;
-	background-color: rgb(0,0,0);
-}
-.n2{
-	position: absolute;
-	width: 30px;
-	height: 400px;
-	top:12px;
-	left: 129px;
-	background-color: rgb(0,0,0);
-}
-.n3{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 30px;
-     top:12px;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(0,0,0);
-      border-bottom: 100px solid transparent;
-      transition: all .7s;
-  }
-  .n4{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 30px;
-     top:111px;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(0,0,0);
-      border-bottom: 100px solid transparent;
-      transform: rotate(180deg);
-      transition: all .7s;
-  }
-
-  .gbox{
-	position: absolute;
-	left: 602px;
-	
-}
-  .g1{
-	position: absolute;
-	width: 30px;
-	height: 280px;
-	top:-10px;
-	left: 90px;
-	background-color: rgb(0,0,0);
-	transform: rotate(39deg);
-}
-.g2{
-	position: absolute;
-	width: 30px;
-	height: 262px;
-	top: 186px;
-	left: 100px;
-	background-color: rgb(0,0,0);
-	transform: rotate(315deg);
-}
-.g3{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 97px;
-     top: 320px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transform: rotate(180deg);
-      transition: all .7s;
-}
-.g4{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 97px;
-     top: 225px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transform: rotate(180deg);
-      transition: all .7s;
-}
-
-
- .ebox{
-	position: absolute;
-	left: 909px;
-	
-}
-  .e1{	
-
-	position: absolute; 
-	top: 12px;
-	width: 30px;
-	height: 408px;
-	top: 12px;
-	
-	background-color: rgb(0,0,0);
-
-}
-.e3{
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 12px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transform: rotate(180deg);
-      transition: all .7s;
-  }
-  .e4{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 320px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transition: all .7s;
-      
-}
-  .e2{	
-
-	position: absolute;
-	
-	width: 148px;
-	height: 30px;
-	top: 196px;
-	
-	background-color: rgb(0,0,0);
-
-}
- .sbox{
-position: absolute;
-	left: 1119px;
-	
-}
-
-.s1{
-	position: absolute;
-	width: 30px;
-	height: 251px;
-	top: 65px;
-	left: 86px;
-	background-color: rgb(0,0,0);
-	transform: rotate(315deg);
-}
-  .s2{	
-
-	position: absolute; 
-	top: 12px;
-	width: 30px;
-	height: 52px;
-	top: 268px;
-	left: 170px;
-	background-color: rgb(0,0,0);
-
-}
-.s3{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 12px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transition: all .7s;
-}
-.s4{
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 320px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(0,0,0);
-      transform: rotate(180deg);
-      transition: all .7s;
-}
-
-
 h1{
-	position:absolute;
-	top: 440px;
-	
-	font-family: impact;
-	helvetica,arial, palatino, georgia, didot
-	font-weight: normal;
-
-}
-p {
-	position:absolute;
-	top: 480px;
-
-	width: 410px;
-	font-size: 18px;
-	font-family: helvetica;
-	line-height: 23px;
-	font-weight: bold;
-	text-align: left;
-	
-}
-.r3:hover {
-	     width: 0;
-      height: 0;
-     left: 37px;
-     top:20px;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(246, 242, 142);
-      border-bottom: 100px solid transparent;
+position: absolute;
+	font-family: 'Monoton', cursive;
+	color: rgb(255,255,255);
+text-align: center;
+letter-spacing: 23px;	
+	font-size: 80px}
+.h1:hover {
+  color: rgb(117,248,255);
   
 }
-.r4:hover {
-	     width: 0;
-      height: 0;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(242, 188, 91);
-      border-bottom: 100px solid transparent;
-      
 
-}
-.a3:hover {
-		position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 12px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(226, 133, 66);
-}
-.a4:hover {
-		position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 224px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(195, 73, 38);
-      transform: rotate(180deg);
-}
-.n3:hover {
-		position: absolute;
-     width: 0;
-      height: 0;
-     left: 30px;
-     top:12px;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(246, 242, 142);
-      border-bottom: 100px solid transparent;
-}
-.n4:hover {
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 30px;
-     top:111px;
-      border-top: 100px solid transparent;
-      border-left: 100px solid rgb(242, 188, 91);
-      border-bottom: 100px solid transparent;
-      transform: rotate(180deg);
-}
-.g3:hover {
-		position: absolute;
-     width: 0;
-      height: 0;
-     left: 97px;
-     top: 320px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(195, 73, 38);
-      transform: rotate(180deg);
-}
-.g4:hover {
-		position: absolute;
-     width: 0;
-      height: 0;
-     left: 97px;
-     top: 225px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(226, 133, 66);
-      transform: rotate(180deg);
-}
-
-.e3:hover {
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 12px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(246, 242, 142);
-      transform: rotate(180deg);
-}
-.e4:hover {
-
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 320px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(242, 188, 91);
-}
-.s3:hover {
-
+h3{
 position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 12px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-      border-bottom: 100px solid rgb(226, 133, 66);
-}
-.s4:hover {
-
+	font-family: 'Lora', serif;
+line-height: 40px;
+	color: rgb(255,255,255);
+	text-align: center;
+top: 308px;
+left: 450px;
+	font-size: 40px}
+	h5{
 position: absolute;
-	position: absolute;
-     width: 0;
-      height: 0;
-     left: 0px;
-     top: 320px;
-    
-      border-right:100px solid transparent;
-      border-left: 100px solid transparent;
-    
-      transform: rotate(180deg);
-      border-bottom: 100px solid rgb(195, 73, 38);
+	font-family: 'Lora', serif;
+line-height: 25px;
+left: 510px;
+	color: rgb(255,255,255);
+top: 540px;
+text-align: center;
+	font-size: 25px}
+	h6{
+position: absolute;
+left: 560px;
+	font-family: 'Lora', serif;
+line-height: 20px;
+text-align: center;
+	color: rgb(255,255,255);
+top: 630px;
+	font-size: 20px}
+	
+.bk{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("pic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 1px;
+  transition: background-color 0.5s ease-in-out;
+}
+.bk:hover {
+opacity: .9;
+ }
+
+
+
+
+
+
+@media (max-width: 1024px){
+	h1{
+		font-size: 50px;
+		top: 20px;
+		left: 0px;
+	}
+
+h3{
+	font-size: 25px;
+	top:170px;
+	left: 0px;
 }
 
-/* Color Theme Swatches in RGBA */
-.Peach-Ice-Tea-1-rgba { color: rgba(246, 242, 142, 1); }
-.Peach-Ice-Tea-2-rgba { color: rgba(244, 216, 114, 1); }
-.Peach-Ice-Tea-3-rgba { color: rgba(242, 188, 91, 1); }
-.Peach-Ice-Tea-4-rgba { color: rgba(226, 133, 66, 1); }
-.Peach-Ice-Tea-5-rgba { color: rgba(195, 73, 38, 1); }
+h5{
+	font-size: 17px;
+	top:280px;
+	left: 0px;
+}
+h6{
+	font-size: 13px;
+	top: 430px;
+	left: 0px;
+}
+
+}
 
 
+
+
+  
