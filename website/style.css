@@ -1,0 +1,104 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("pic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+h1{
+position: absolute;
+	font-family: 'Monoton', cursive;
+	color: rgb(255,255,255);
+text-align: center;
+letter-spacing: 23px;	
+	font-size: 80px}
+.h1:hover {
+  color: rgb(117,248,255);
+  
+}
+
+h3{
+position: absolute;
+	font-family: 'Lora', serif;
+line-height: 40px;
+	color: rgb(255,255,255);
+	text-align: center;
+top: 308px;
+left: 450px;
+	font-size: 40px}
+	h5{
+position: absolute;
+	font-family: 'Lora', serif;
+line-height: 25px;
+left: 510px;
+	color: rgb(255,255,255);
+top: 540px;
+text-align: center;
+	font-size: 25px}
+	h6{
+position: absolute;
+left: 560px;
+	font-family: 'Lora', serif;
+line-height: 20px;
+text-align: center;
+	color: rgb(255,255,255);
+top: 630px;
+	font-size: 20px}
+	
+.bk{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("pic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 1px;
+  transition: background-color 0.5s ease-in-out;
+}
+.bk:hover {
+opacity: .9;
+ }
+
+
+
+
+
+
+@media (max-width: 1024px){
+	h1{
+		font-size: 50px;
+		top: 20px;
+		left: 0px;
+	}
+
+h3{
+	font-size: 25px;
+	top:170px;
+	left: 0px;
+}
+
+h5{
+	font-size: 17px;
+	top:280px;
+	left: 0px;
+}
+h6{
+	font-size: 13px;
+	top: 430px;
+	left: 0px;
+}
+
+}
+
+
+
+
+  
