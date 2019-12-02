@@ -1,0 +1,95 @@
+.inblock{
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	top: 130px;
+	margin-top: 35px;
+	margin-left: 38px;
+	margin-right: 0px;
+	margin-bottom:-5px;
+	background-color: rgb(255,255,255);
+
+}
+.kk{
+
+		position: absolute;
+	font-size: 40px;
+	top: -30px;
+
+	text-align: center;
+	color: rgb(37,97,176);
+font-family: 'Coiny', cursive;
+}
+.ok{
+			position: absolute;
+	font-size: 20px;
+	top: 10px;
+	left: 785px;
+	text-align: center;
+	color: rgb(37,97,176);
+font-family: 'Coiny', cursive;
+}
+.box {
+  width: 205px;
+  height: 56px;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  background-color: rgb(216,62,40);
+}
+.blurb{
+font-family: 'Acme', sans-serif;
+		position: absolute;
+	font-size: 20px;
+	top: 64px;
+line-height: 23px;
+	text-align: left;
+	color: rgb(255,255,255);
+}
+.sort{
+	font-family: 'Acme', sans-serif;
+		position: absolute;
+	font-size: 15px;
+	top: 135px;
+	left: 806px;
+line-height: 14px;
+	text-align: left;
+	color: rgb(255,255,255);
+}
+.pic1{
+	position: absolute;
+	top: -32px;
+	left: 50px;
+	width: 175px;
+}
+.txt{
+	position: absolute;
+	top: 230px;
+	font-family: 'Acme', sans-serif;
+			position: absolute;
+	font-size: 22px;
+	width: 550px;
+line-height: 24px;
+	text-align: left;
+}
+a {
+	position: absolute;
+	font-family: 'Acme', sans-serif;
+	color: rgb(255,255,255);
+	font-size: 24px;
+	top: 206px;
+	left: 5px;
+}
+.g1{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 280px;
+	left: 129px;
+
+}
+a:hover{
+	color: rgb(0,0,0);
+}
