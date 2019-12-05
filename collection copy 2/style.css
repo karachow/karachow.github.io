@@ -1,0 +1,231 @@
+.inblock{
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	top: 130px;
+	margin-top: 35px;
+	margin-left: 38px;
+	margin-right: 0px;
+	margin-bottom:-5px;
+	background-color: rgb(255,255,255);
+
+}
+.kk{
+
+		position: absolute;
+	font-size: 70px;
+	top: -42px;
+line-height: 60px;
+	
+	color: rgb(37,97,176);
+font-family: 'Coiny', cursive;
+}
+
+.box {
+  width: 205vw;
+  height: 56px;
+  position: absolute;
+  top: 53px;
+  left: 766px;
+  background-color: rgb(216,62,40);
+}
+.blurb{
+font-family: 'Acme', sans-serif;
+		position: absolute;
+	font-size: 20px;
+	top: 38px;
+	left: 789px;
+line-height: 23px;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+
+
+.pic1{
+	position: absolute;
+	top: -32px;
+	left: 50px;
+	width: 175px;
+}
+.txt{
+	position: absolute;
+	top: 230px;
+	font-family: 'Acme', sans-serif;
+			position: absolute;
+	font-size: 22px;
+	width: 550px;
+line-height: 24px;
+	text-align: left;
+}
+.pic2{
+	position: absolute;
+	top: -11px;
+	left: 300px;
+	width: 175px;
+	height: 125px;
+}
+.pic3{
+	position: absolute;
+	top: -11px;
+	left: 538px;
+	width: 175px;
+	height: 125px;
+}
+
+.pic4{
+	position: absolute;
+	top: -19px;
+	left: 796px;
+	width: 145px;
+	height: 135px;
+}
+.pic5{
+	position: absolute;
+	top: 208px;
+	left: 49px;
+	width: 185px;
+	height: 135px;
+}
+.pic6{
+	position: absolute;
+	top: 208px;
+	left: 291px;
+	width: 185px;
+	height: 135px;
+}
+.pic7{
+	position: absolute;
+	top: 213px;
+	left: 536px;
+	width: 185px;
+	height: 135px;
+}
+.pic8{
+	position: absolute;
+	top: 208px;
+	left: 775px;
+	width: 185px;
+	height: 135px;
+}
+.pic9{
+	position: absolute;
+	top: 442px;
+	left:69px;
+	width: 145px;
+	height: 135px;
+}
+.pic10{
+	position: absolute;
+	top: 442px;
+	left:310px;
+	width: 145px;
+	height: 135px;
+}
+a {
+	position: absolute;
+	font-family: 'Acme', sans-serif;
+	color: rgb(255,255,255);
+	font-size: 24px;
+	top: 206px;
+	left: 5px;
+}
+a:hover{
+	color: rgb(0,0,0);
+}
+.g1{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 280px;
+	left: 129px;
+}
+.g2{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 280px;
+	left: 370px;
+}
+.g3{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 280px;
+	left: 604px;
+}
+.g4{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 280px;
+	left:873px;
+}
+.g5{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 513px;
+	left:130px;
+}
+.g6{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 513px;
+	left:374px;
+}
+.g7{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 513px;
+	left:629px;
+}
+.g8{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 513px;
+	left:829px;
+}
+.g9{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 747px;
+	left:133px;
+}
+.g10{
+	position: absolute;
+	color: rgb(216,62,40);
+	font-family: 'Acme', sans-serif;
+	font-size: 44px;
+	top: 747px;
+	left:387px;
+}
+a{
+	position: absolute;
+	font-family: 'Acme', sans-serif;
+	color: rgb(255,255,255);
+	font-size: 24px;
+	top: 206px;
+	left: 5px;
+}
+a:hover{
+	color: rgb(0,0,0);
+}
+.HOME{
+position: absolute;
+left: 890px;
+top: 670px;
+}
