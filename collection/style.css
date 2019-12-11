@@ -145,13 +145,15 @@ line-height: 23px;
 }
 .txt{
 	position: absolute;
-	top: 250px;
+	top: 210px;
 	font-family: 'Acme', sans-serif;
 			position: absolute;
 	font-size: 22px;
 	width: 550px;
 line-height: 24px;
 	text-align: left;
+	
+	color: rgb(37,97,176);
 }
 .pic2{
 	position: absolute;
@@ -298,7 +300,7 @@ a {
 .buy{
 		position: absolute;
 	font-family: 'Acme', sans-serif;
-	color: rgb(255,255,255);
+	color: rgb(37,97,176);
 	font-size: 24px;
 	top: 230px;
 	left: 5px;
@@ -312,7 +314,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 280px;
-	left: 129px;
+	left: 148px;
 }
 .g2{
 	position: absolute;
@@ -320,7 +322,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 280px;
-	left: 370px;
+	left: 392px;
 }
 .g3{
 	position: absolute;
@@ -328,7 +330,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 280px;
-	left: 604px;
+	left: 635px;
 }
 .g4{
 	position: absolute;
@@ -336,7 +338,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 280px;
-	left:873px;
+	left:878px;
 }
 .g5{
 	position: absolute;
@@ -344,7 +346,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 513px;
-	left:130px;
+	left:152px;
 }
 .g6{
 	position: absolute;
@@ -352,7 +354,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 513px;
-	left:374px;
+	left:398px;
 }
 .g7{
 	position: absolute;
@@ -360,7 +362,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 513px;
-	left:629px;
+	left:636px;
 }
 .g8{
 	position: absolute;
@@ -368,7 +370,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 513px;
-	left:876px;
+	left:878px;
 }
 .g9{
 	position: absolute;
@@ -376,7 +378,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 747px;
-	left:133px;
+	left:152px;
 }
 .g10{
 	position: absolute;
@@ -384,7 +386,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 747px;
-	left:387px;
+	left:396px;
 }
 .g11{
 	position: absolute;
@@ -392,7 +394,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 747px;
-	left:593px;
+	left:632px;
 }
 .g12{
 	position: absolute;
@@ -400,7 +402,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 747px;
-	left:884px;
+	left:878px;
 }
 .g13{
 	position: absolute;
@@ -408,7 +410,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 981px;
-	left:147px;
+	left:153px;
 }
 .g14{
 	position: absolute;
@@ -416,7 +418,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 981px;
-	left:389px;
+	left:394px;
 }
 .g15{
 	position: absolute;
@@ -424,7 +426,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 981px;
-	left:615px;
+	left:634px;
 }
 .g16{
 	position: absolute;
@@ -432,7 +434,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 981px;
-	left:851px;
+	left:878px;
 }
 .g17{
 	position: absolute;
@@ -440,7 +442,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 1215px;
-	left:147px;
+	left:153px;
 }
 .g18{
 	position: absolute;
@@ -448,7 +450,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 1215px;
-	left:379px;
+	left:394px;
 }
 .g19{
 	position: absolute;
@@ -456,7 +458,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 1215px;
-	left:615px;
+	left:632px;
 }
 .g20{
 	position: absolute;
@@ -464,7 +466,7 @@ a:hover{
 	font-family: 'Acme', sans-serif;
 	font-size: 44px;
 	top: 1215px;
-	left:856px;
+	left:877px;
 }
 a{
 	position: absolute;
@@ -479,7 +481,27 @@ a:hover{
 }
 .HOME{
 position: absolute;
-left: 950px;
+left: 900px;
 top: 5px;
+color: rgb(216,62,40);
+font-size: 30px;
 }
+
+.button2 {
+  position: absolute;
+  top: 154px;
+  left: 330px;
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+ font-family: 'Acme', sans-serif;
+  margin-bottom: 4px;
+  background-color: rgb(216,62,40);
+
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
 
