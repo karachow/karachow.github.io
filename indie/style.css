@@ -1,8 +1,57 @@
 h1{
-	color: rgb(22,180,220);
+	position: relative;
+		font-family: 'Varela', sans-serif;
+		left: 1px;
+		top: 70px;
+		width: 340px;
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 0px;
+		color: rgb(168,160,142);
 }
+.bar{
+	position: relative;
+	top: -15px;
+	left:-8px;
+	background-color: rgb(168,160,142);
+	width: 427px;
+	height: 50px;
+}
+
 p{
+	top: 71px;
+	position: relative;
 	color: rgb(0,0,0);
-	font-family: helvetica;
-	width: 500px;
+	font-family: 'Varela', sans-serif;
+	font-size: 17px;
+	width: 340px;
+	left: 13px;
+	margin-bottom: 10px;
+
+}
+h3{
+	position: relative;
+	font-family: 'Varela', sans-serif;
+	left: 1px;
+		width: 340px;
+		top: 67px;
+			margin-bottom: 0px;
+			margin-top: 3px;
+			color: rgb(168,160,142);
+}
+.fullbleed{
+	position: relative;
+height: 300px;
+left: -8px;
+top: 20px;
+	width: 430px;
+
+
+}
+.pull {
+	font-size: 26px;
+	color: rgb(168,160,142);
+margin-bottom: 3px;
+			margin-top: 3px;
+font-family: 'Passion One', cursive;
 }
