@@ -1,25 +1,112 @@
+
+.homep{
+	margin: 0;
+	margin-left: 0;
+	left: 0px;
+}
 h1{
 	position: relative;
 		font-family: 'Varela', sans-serif;
-		left: 1px;
-		top: 70px;
+		left: 13px;
+		top: 0px;
 		width: 340px;
 		font-size: 30px;
 		line-height: 35px;
 		margin-bottom: 0px;
 		color: rgb(168,160,142);
 }
+.two{
+		position: relative;
+		font-family: 'Varela', sans-serif;
+		left: 13px;
+		top: 0px;
+		width: 340px;
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 0px;
+		color: rgb(138,165,210);
+}
+.three{
+		position: relative;
+		font-family: 'Varela', sans-serif;
+		left: 13px;
+		top: 0px;
+		width: 340px;
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 0px;
+		color: rgb(187,127,163);
+}
+.four{
+		position: relative;
+		font-family: 'Varela', sans-serif;
+		left: 13px;
+		top: 0px;
+		width: 340px;
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 0px;
+		color: rgb(63,119,133);
+}
+.five{
+		position: relative;
+		font-family: 'Varela', sans-serif;
+		left: 13px;
+		top: 0px;
+		width: 340px;
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 0px;
+		color: rgb(223,90,80);
+}
 .bar{
 	position: relative;
-	top: -15px;
-	left:-8px;
+	top: 0px;
+	left:0px;
 	background-color: rgb(168,160,142);
-	width: 427px;
+	width: 375px;
 	height: 50px;
+	margin: 0;
+}
+.bar2{
+	position: relative;
+	top: 0px;
+	left:0px;
+	background-color: rgb(138,165,210);
+	width: 375px;
+	height: 50px;
+	margin: 0;
+}
+.bar3{
+	position: relative;
+	top: 0px;
+	left:0px;
+	background-color: rgb(187,127,163);
+	width: 375px;
+	height: 50px;
+	margin: 0;
+}
+.bar4{
+	position: relative;
+	top: 0px;
+	left:0px;
+	background-color: rgb(63,119,133);
+	width: 375px;
+	height: 50px;
+	margin: 0;
+}
+.bar5{
+	position: relative;
+	top: 0px;
+	left:0px;
+	background-color: rgb(168,160,142);
+	width: 375px;
+	height: 50px;
+	margin: 0;
 }
 
 p{
-	top: 71px;
+	top: -15px;
 	position: relative;
 	color: rgb(0,0,0);
 	font-family: 'Varela', sans-serif;
@@ -32,26 +119,33 @@ p{
 h3{
 	position: relative;
 	font-family: 'Varela', sans-serif;
-	left: 1px;
+	left: 13px;
 		width: 340px;
-		top: 67px;
+		top: -4px;
 			margin-bottom: 0px;
 			margin-top: 3px;
 			color: rgb(168,160,142);
 }
 .fullbleed{
 	position: relative;
-height: 300px;
-left: -8px;
-top: 20px;
-	width: 430px;
-
+height: 240px;
+left: 0px;
+top: 0px;
+	width: 375px;
+	margin: 0px;
 
 }
+
+body{
+	margin: 0;
+	width: 100vw;
+}
 .pull {
-	font-size: 26px;
+	font-size: 32px;
 	color: rgb(168,160,142);
 margin-bottom: 3px;
 			margin-top: 3px;
 font-family: 'Passion One', cursive;
+line-height: 28px;
+left: 30px;
 }
