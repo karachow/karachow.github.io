@@ -1,15 +1,23 @@
+body{
+	margin: 0;
+}
+
+
 .logo{
 	position: absolute;
 
-	width: 55px;
+	width: 60px;
 	height: 40px;
 	left: 159px;
 	top: 6px;
 }
 .homep{
-	margin: 0;
-	margin-left: 0;
-	left: 0px;
+
+	margin-left: 0px;
+	margin-right: 0px;
+	margin: 0px;
+
+
 }
 h1{
 	position: relative;
@@ -190,15 +198,12 @@ top: 0px;
 
 }
 
-body{
-	margin: 0;
-	width: 100vw;
-}
+
 .pull {
 	font-size: 32px;
 	color: rgb(168,160,142);
 margin-bottom: 3px;
-			margin-top: 3px;
+			margin-top: 15px;
 font-family: 'Passion One', cursive;
 line-height: 28px;
 left: 30px;
@@ -207,7 +212,7 @@ left: 30px;
 	font-size: 32px;
 	color: rgb(138,165,210);
 margin-bottom: 3px;
-			margin-top: 3px;
+			margin-top: 15px;
 font-family: 'Passion One', cursive;
 line-height: 28px;
 left: 30px;
@@ -217,7 +222,7 @@ left: 30px;
 	color: rgb(187,127,163);
 
 margin-bottom: 3px;
-			margin-top: 3px;
+			margin-top: 15px;
 font-family: 'Passion One', cursive;
 line-height: 28px;
 left: 30px;
@@ -227,7 +232,7 @@ left: 30px;
 	color: rgb(63,119,133);
 
 margin-bottom: 3px;
-			margin-top: 3px;
+			margin-top: 15px;
 font-family: 'Passion One', cursive;
 line-height: 28px;
 left: 30px;
@@ -237,8 +242,16 @@ left: 30px;
 color: rgb(223,90,80);
 
 margin-bottom: 3px;
-			margin-top: 3px;
+			margin-top: 15px;
 font-family: 'Passion One', cursive;
 line-height: 28px;
 left: 30px;
+}
+
+
+.buttons {
+	position: relative;
+	width: auto;
+	height: 75px;
+	left: 192px;
 }
