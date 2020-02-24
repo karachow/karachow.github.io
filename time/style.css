@@ -3,98 +3,88 @@ body{
 }
 .one {
   position: absolute;
-
-      border-radius: 50%;
-
-  animation-name: ok;
-  animation-duration: 60s;
+  background-image: url(ball1.png);
+  background-size: contain;
+background-repeat: no-repeat;
+  background-position: center center; 
+  animation-duration: 50s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
+  animation-name: ok;
 }
 @keyframes ok {
   0% {
-  	      left: 300px;
-      top: 100px;
-    background-color: rgb(255, 40, 10);
-         width: 50px;
+  	      left: 295px;
+      bottom: 490px;
       height: 50px;
-      border-radius: 50%;
-
+      width:50px;
     transform: rotate(0deg);
   }
 
   100% {
-  	      left: 100px;
-      top: 100px;
-    background-color: rgb(255, 40, 10);
-          width: 200px;
-      height: 200px;
+  	      height: 200px;
+      width:200px;
+  	      left: 235px;
+      bottom: 490px;
 
-      border-radius: 50%;
     transform: rotate(0deg);
   }
 }
 .two {
   position: absolute;
-       width: 100px;
-      height: 100px;
-      left:675px;
-      top: 100px;
-      border-radius: 50%;
-  background-color: rgb(16, 51, 255);
-  animation-name: two;
+  background-image: url(ball2.png);
+  background-size: contain;
+background-repeat: no-repeat;
+  background-position: center center; 
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
+  animation-name: two;
 }
 @keyframes two {
   0% {
-    background-color: rgb(16, 51, 255);
+
          width: 50px;
       height: 50px;
-      border-radius: 50%;
-      
+      left: 675px;
+            bottom: 490px;
     transform: rotate(0deg);
   }
 
   100% {
-    background-color: rgb(16, 51, 255);
+
           width: 200px;
       height: 200px;
-
-      border-radius: 50%;
+      left: 605px;
+            bottom: 490px;
     transform: rotate(0deg);
   }
 }
 .three {
   position: absolute;
-       width: 100px;
-      height: 100px;
-      left: 1000px;
-      top: 100px;
-      border-radius: 50%;
-  background-color: rgb(243, 234, 15);
-  animation-name: three;
+  background-image: url(ball3.png);
+  background-size: contain;
+background-repeat: no-repeat;
+  background-position: center center; 
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
+  animation-name: three;
 }
 @keyframes three {
   0% {
-    background-color: rgb(243, 234, 15);
-         width: 50px;
+  		left: 1080px;
+      width: 50px;
       height: 50px;
-      border-radius: 50%;
-
+      bottom: 490px;
     transform: rotate(0deg);
   }
 
   100% {
-    background-color: rgb(243, 234, 15);
-          width: 200px;
+		left: 1014px;
+      width: 200px;
       height: 200px;
-
-      border-radius: 50%;
+      bottom: 490px;
     transform: rotate(0deg);
   }
 }
