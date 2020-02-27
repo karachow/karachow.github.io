@@ -1,0 +1,121 @@
+body{
+	background-image: url('backg.png');
+
+
+}
+.one {
+  position: absolute;
+  background-image: url(ball1.png);
+  background-size: contain;
+background-repeat: no-repeat;
+  background-position: center center; 
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-name: ok;
+}
+@keyframes ok {
+  0% {
+  	      left: 295px;
+      bottom: 490px;
+      height: 50px;
+      width:50px;
+    transform: rotate(0deg);
+  }
+
+  100% {
+  	      height: 200px;
+      width:200px;
+  	      left: 235px;
+      bottom: 490px;
+
+    transform: rotate(0deg);
+  }
+}
+.two {
+  position: absolute;
+  background-image: url(ball2.png);
+  background-size: contain;
+background-repeat: no-repeat;
+  background-position: center center; 
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-name: two;
+}
+@keyframes two {
+  0% {
+
+         width: 50px;
+      height: 50px;
+      left: 675px;
+            bottom: 490px;
+    transform: rotate(0deg);
+  }
+
+  100% {
+
+          width: 200px;
+      height: 200px;
+      left: 605px;
+            bottom: 490px;
+    transform: rotate(0deg);
+  }
+}
+.three {
+  position: absolute;
+  background-image: url(ball3.png);
+  background-size: contain;
+background-repeat: no-repeat;
+  background-position: center center; 
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-name: three;
+}
+@keyframes three {
+  0% {
+  		left: 1080px;
+      width: 50px;
+      height: 50px;
+      bottom: 490px;
+    transform: rotate(0deg);
+  }
+
+  100% {
+		left: 1014px;
+      width: 200px;
+      height: 200px;
+      bottom: 490px;
+    transform: rotate(0deg);
+  }
+}
+
+.one.alarm{
+	display: none;
+
+}
+.two.alarm{
+	display: none;
+}
+
+.three.alarm{
+	display: none;
+}
+.wat {
+	position: absolute;
+	left: 2px;
+	display: none;
+}
+.wat.alarm {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
