@@ -5,5 +5,6 @@ $(document).ready(function(){
 	$(".two").addClass("alarm");
 	$(".three").addClass("alarm");
 		$(".wat").addClass("alarm");
-  }, 5000);
+		$(".won").addClass("alarm");
+  }, 10000);
 });
