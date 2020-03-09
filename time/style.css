@@ -1,5 +1,9 @@
 body{
-	background-image: url('backg.png');
+	background-image: url('backg2.png');
+	background-size: 1440px 758px;
+	width: 1440px;
+	height: 758px;
+	background-repeat: no-repeat;
 }
 .one {
   position: absolute;
@@ -88,3 +92,37 @@ background-repeat: no-repeat;
     transform: rotate(0deg);
   }
 }
+
+.one.alarm{
+	display: none;
+
+}
+.two.alarm{
+	display: none;
+}
+
+.three.alarm{
+	display: none;
+}
+.wat {
+	position: absolute;
+	left: 2px;
+	display: none;
+}
+.wat.alarm {
+	display: block;
+}
+.won {
+  display: none;
+}
+.won.alarm{
+  display: block;
+}
+
+
+
+
+
+
+
+
