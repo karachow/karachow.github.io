@@ -69,7 +69,7 @@ body {
 
 .hero {
   position: absolute;
-  bottom: 80px;
+  bottom: 40px;
   left: 400px;
   width: 300px;
   height: 300px;
@@ -88,7 +88,7 @@ body {
 .hero.walking {
   background-image: url("./img/walking-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 300ms;
+  animation-duration: 400ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
@@ -100,7 +100,7 @@ body {
   background-image: url("./img/jumping-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(7); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.doing-action {
@@ -112,8 +112,8 @@ body {
 
 .npc {
   position: absolute;
-  width: 170px;
-  height: 170px;
+  width: 140px;
+  height: 140px;
   bottom: 490px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
