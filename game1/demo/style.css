@@ -47,8 +47,8 @@ body {
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  background-color: rgb(243, 128, 25);
-  color: white;
+  background-color: rgb(133, 227, 255);
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 22px;
@@ -107,26 +107,27 @@ body {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 700ms;  /* set to same number in initialize() as well or it will look weird */
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(7); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .npc {
   position: absolute;
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   bottom: 490px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
-  animation-duration: 500ms;
-  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
+  animation-duration: 1300ms;
+  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
 }
 
 .npc.was-interacted {
   opacity: 0;
-  transition: opacity 400ms linear;
+  transition: opacity 800ms linear;
+   background-image: url("./img/npc-was-interacted.png");
 }
 
 .preload-image {
