@@ -1,0 +1,19 @@
+.pic{
+	position: absolute;
+
+left: 0px;
+top: 0px;
+width: 100%;
+	margin: 0px;}
+
+.gif{
+	position: absolute;
+	width: 620px;
+	height: 442px;
+	top: 1203px;
+	left: 889px;
+}
+.gif img{
+	height: 100%;
+	width: 100%;
+}
