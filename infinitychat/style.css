@@ -17,3 +17,79 @@ width: 100%;
 	height: 100%;
 	width: 100%;
 }
+.box {
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  top: 26px;
+  left: 1140px;
+
+}
+.box2 { 
+ position: absolute;
+  width: 850px;
+  height: 130px;
+
+  top: 100px;
+  left: 150px;
+
+}
+.home { 
+ position: absolute;
+  width: 200px;
+  height: 40px;
+
+  top: 20px;
+  left: 50px;
+
+}
+.down {
+ position: absolute;
+  width: 400px;
+  height: 130px;
+  top: 100px;
+  right:190px;
+ 
+  display: block;
+
+}
+.downn {
+ position: absolute;
+  width: 160px;
+  height: 50px;
+  top: 2340px;
+  right:639px;
+
+  display: block;
+
+}
+.down1 {
+ position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 26px;
+  right:50px;
+  
+  display: block;
+
+}
+.twit {
+ position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 2340px;
+  left: 120px;
+
+  display: block;
+
+}
+.ins{
+ position: absolute;
+  width: 40px;
+  height: 50px;
+  top: 2340px;
+  left: 50px;
+
+  display: block;
+
+}
